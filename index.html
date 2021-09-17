@@ -1,0 +1,369 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>LearningBasic</title>
+<meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport">
+
+<!-- whale.css -->
+<link href="css/whale.css" rel="stylesheet"/>
+
+<!-- bootstrap -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- estilos -->
+<link href="css/style.css" rel="stylesheet"/>
+<link href="css/article.css" rel="stylesheet"/>
+
+</head>
+<body>
+
+<header class="header fixed-top">
+    <div class="header__bar display-flex align-items-stretch">
+        <div class="case display-none-xl display-flex align-items-center">
+            <button class="wjs-outsite reset toggle" data-target="offcanvas"><span></span></button>
+        </div>
+        <div class="logo case display-flex align-items-center">
+           <!-- <a href="">zkreations<span>.docs</span></a> -->
+           <a class="navbar-brand col-md-3 col-lg-2 me-2 px-2 " href="index.html"><h3>LearningBasic </h3></a>
+           <button class="navbar-toggler position-absolute d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+           </button>
+        </div>
+        <div class="case--last display-flex align-items-stretch">
+            <div class="case display-flex align-items-center">
+               <!-- <ul class="navbar-nav px-3">
+                    <li class="nav-item text-nowrap">
+                       <a class="text-light nav-link " href="#">Sign out</a>
+                    </li>
+                </ul> -->
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<aside class="offcanvas" id="offcanvas">
+    <div class="position-sticky pt-3">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="headingCero">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCero" aria-expanded="true" aria-controls="collapseCero">
+                 <h3>INTRODUCCION</h3>
+                </button>
+              </h4>
+              <div id="collapseCero" class="accordion-collapse collapse " aria-labelledby="headingcero" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#inicio">
+                        <span data-feather="home"></span>
+                       Iniciamos
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#nudo">
+                        <span data-feather="file"></span>
+                       De que trata esta pagina?
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#decenlace">
+                        <span data-feather="shopping-cart"></span>
+                        Que aprenderas aqui?
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                 <h3>GitHub</h3>
+                </button>
+              </h4>
+              <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#git_intro">
+                        <span data-feather="home"></span>
+                       Introduccion a git
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="file"></span>
+                        Orders
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="shopping-cart"></span>
+                        Products
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="users"></span>
+                        Customers
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="bar-chart-2"></span>
+                        Reports
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="layers"></span>
+                        Integrations
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                 <h3>SQL</h3>
+                </button>
+              </h4>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">
+                        <span data-feather="home"></span>
+                        Dashboard
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="file"></span>
+                        Orders
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="shopping-cart"></span>
+                        Products
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="users"></span>
+                        Customers
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="bar-chart-2"></span>
+                        Reports
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="layers"></span>
+                        Integrations
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                 <h3>HTML5</h3>
+                </button>
+              </h4>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">
+                        <span data-feather="home"></span>
+                        Dashboard
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="file"></span>
+                        Orders
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="shopping-cart"></span>
+                        Products
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="users"></span>
+                        Customers
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="bar-chart-2"></span>
+                        Reports
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="layers"></span>
+                        Integrations
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h4 class="accordion-header" id="heading4">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                 <h3>CONSOLA CMD</h3>
+                </button>
+              </h4>
+              <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul class="nav flex-column">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">
+                        <span data-feather="home"></span>
+                        Dashboard
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="file"></span>
+                        Orders
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="shopping-cart"></span>
+                        Products
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="users"></span>
+                        Customers
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="bar-chart-2"></span>
+                        Reports
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">
+                        <span data-feather="layers"></span>
+                        Integrations
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+</aside>
+
+
+<div class="docs-body">
+   <div class="conatiner-fluid p-5">
+     <div class="container">
+
+       <h1 class="text-center p-5 title" id="inicio">Introduccion</h1>
+
+       <h4>Si deseas aprender conceptos basicos y que cuando se te olviden quieras verlos rapidamente, quizas este repositorio de conocimientos te sirva de algo</p>
+
+       <span id="nudo" class="divider"></span>
+
+       <h1 class="text-center title" >¿ Y esto de que trata ?</h1>
+
+      <p>en esta documentacion podras encontrar conceptos basicos pero utiles, donde encontraras datos relevantes aserca de diferentes tecnologias en el mundo de la programacion</p>
+
+       <span id="decenlace" class="divider"></span>
+
+       <h1 class=" text-center" >¿Que aprendere aqui?</h1>
+       
+      <p>Todo lo basico sobre las tecnologias que seran estudiadas y que podras observar en el menu de navegacion de la parte derecha, conceptos, comandos, usos, datos relevantes, recomendaciones y ejemplos de uso para mejorar la claridad de los conceptos</p><br>
+      <p>sabemos que no todos aprendemos de la misma fomra, algunos puede que aprendan con mas recursos biblicos o de lectura, quizas apunta de puros PDF o con ejemplos en vivo, otros solo copian y pegan y miran el resultado, para todo este repositorio se adaptara y te gustara</p><br>
+      <h5>navega por el menu de navegacion de la derecha para ir aprendiendo todo lo basico y que no se te olvide nunca</h5>
+
+      <span id="git_intro" class="divider"></span>
+
+      <div class="article">
+        <div class="article_img">
+          <img src="src/github.png" alt="">
+        </div>
+        <div class="article_body">
+          <h1>GitHub</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quasi dolore, provident, alias sed voluptatibus deserunt eius excepturi eos similique, quaerat esse deleniti assumenda qui odit. Sint quae, dolorum voluptatem soluta eos, est saepe deserunt inventore distinctio nesciunt iste tempore dolorem enim id quasi quisquam cupiditate culpa harum! Iste, inventore.</p>
+        </div>
+      </div>
+      <div class="text_article">
+      <h1>Introduccion a  Git y github</h1>
+      <p>Git es un control de versiones basado en el modelo de ramificaciones,
+         ¿ y que es un control de versiones</p>
+      <p>¿Qué es un control de versiones, y por qué debería importarte? Un control de versiones
+        es un sistema que registra los cambios realizados en un archivo o conjunto de archivos
+        a lo largo del tiempo, de modo que puedas recuperar versiones específicas más adelante.</p><br>
+        <p>Si eres diseñador gráfico o de web y quieres mantener cada versión de una imagen o
+          diseño (es algo que sin duda vas a querer), usar un sistema de control de versiones
+          (VCS por sus siglas en inglés) es una decisión muy acertada. Dicho sistema te permite
+          regresar a versiones anteriores de tus archivos, regresar a una versión anterior del
+          proyecto completo, comparar cambios a lo largo del tiempo, ver quién modificó por
+          última vez algo que pueda estar causando problemas, ver quién introdujo un problema
+          y cuándo, y mucho más. Usar un VCS también significa generalmente que si arruinas o
+          pierdes archivos, será posible recuperarlos fácilmente. Adicionalmente, obtendrás todos
+          estos beneficios a un costo muy bajo.</p><br>
+          <p>resumiendo y acortando texto, coloquemos un ejemplo como anafora.</p><br>
+          <p>supongamos que tu proyecto es un arbol en pleno crecimiento, cada dia que vas avanzando el tronco va creciendo y haciendose mas grande, a medida que el tronco va creciendo le van saliendo ramas las cuales creas tu con el mismo proyecto que lleva el tronco pero en una instancia diferente, en esa instancia puedes hacer cambios sin que afectes al tronco principal, por lo que puede crear versiones diferentes de tu proyecto y si te gusta puedes unirlas a la rama principal o tronco, git te permite ir creando un historial de tu proyecto, como una linea de tiempo, puedes observar como era tu proyecto hace dias atras y lo mejor es que si el proyecto te gustaba como estaba antes puedes regresar o puedes ir al futuro, con git eso es posible.</p><br>
+          <p>git te permite tener un trabajo colaborativo con todos los de tu equipo, sin importar que lejos esten, en que planeta se encuentren, despues que tengas una conexion a internet pueden unirse a git y trabajar como uno solo.</p>
+          <span class="info"><i>Despues de todo en equipo es mejor</i></span>
+          <br>
+          <p>Si tienes un proyecto puedes subirlo a git <strong>(Repositorios es el nombre que recive tu proyecto en git) </strong> y todo el mundo puede contribuir para mejorar tu proyecto, llevandose copias de tu trabajo a sus computadoras y luego subiendolas de nuevo a tu repositorio, asi tu te llevas esos cambios a tu computatora personal y miras como va quedando.</p>
+          <span class="info"><i>Pueden salir obras de arte cuando todo el mundo colobara entre si)</i></span>
+
+          <h1>Linea de Comandos</h1><br>
+          <p>Existen muchas formas de usar Git. Por un lado tenemos las herramientas originales de
+            línea de comandos, y por otro lado tenemos una gran variedad de interfaces de usuario
+            con distintas capacidades.</p>
+        </div>
+     </div>
+   </div>  
+</div>
+
+
+
+
+
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- whale.js -->
+<script async src="js/script.js"></script>
+<script src='js/highlight.js'></script>
+<script>for (var preCode = document.getElementsByTagName("pre"), i = 0; i < preCode.length; i++) hljs.highlightBlock(preCode[i]);</script>
+<script src='js/clipboard.js'></script>
+<script>
+new ClipboardJS('.code-copy', {
+    target: function(trigger) {
+        return trigger.nextElementSibling;
+    }
+});
+</script>
+</body>
+</html>
