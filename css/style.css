@@ -275,3 +275,10 @@ p{
   font-size: 15px;
   
 }
+
+.article_gallery{
+    display: flex;
+}
+.gallery_item{
+    margin: 0 30px;
+}
