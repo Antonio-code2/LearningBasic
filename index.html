@@ -287,19 +287,19 @@
    <div class="conatiner-fluid p-5">
      <div class="container">
 
-       <h1 class="text-center p-5 title" id="inicio">Introduccion</h1>
+       <h1 class="title" id="inicio">Introduccion</h1>
 
        <p>Si deseas aprender conceptos basicos y que cuando se te olviden quieras verlos rapidamente, quizas este repositorio de conocimientos te sirva de algo</p>
 
        <span id="nudo" class="divider"></span>
 
-       <h1 class="text-center title" >¿ Y esto de que trata ?</h1>
+       <h1 class=" title" >¿ Y esto de que trata ?</h1>
 
       <p>en esta documentacion podras encontrar conceptos basicos pero utiles, donde encontraras datos relevantes aserca de diferentes tecnologias en el mundo de la programacion</p>
 
        <span id="decenlace" class="divider"></span>
 
-       <h1 class=" text-center" >¿Que aprendere aqui?</h1>
+       <h1 class="" >¿Que aprendere aqui?</h1>
        
       <p>Todo lo basico sobre las tecnologias que seran estudiadas y que podras observar en el menu de navegacion de la parte derecha, conceptos, comandos, usos, datos relevantes, recomendaciones y ejemplos de uso para mejorar la claridad de los conceptos</p><br>
       <p>sabemos que no todos aprendemos de la misma fomra, algunos puede que aprendan con mas recursos biblicos o de lectura, quizas apunta de puros PDF o con ejemplos en vivo, otros solo copian y pegan y miran el resultado, para todo este repositorio se adaptara y te gustara</p><br>
@@ -378,10 +378,56 @@
             </div>
            </div>
 
+           <span id="git-config" class="divider"></span>
 
+           <h1>Configuracion de git</h1><br>
 
+           <p>Ahora toca configurar git para poder tener un entorno de trabajo mas estable y actualizado, solo se hace una ves asi que no te preocupes si crees que tienes que repetir todo el proceso siempre que inices git.</p>
+           <p>todo git es configurado y manejado con comandos que son escritos en la consola de windows o con la propia consola que trae git cuando se instala <strong>Git bash</strong> </p>
+           <p>puedes abrir la consola de windows  (imagen 1)</p>
 
-          <!-- <h1>Linea de Comandos</h1><br>
+           <p>O Git bash (imagen 2)</p><br>
+
+           <div class="article_gallery">
+           <div class="gallery_item">
+            <img src="src/consola_winows.png" alt="">
+            <span>Imagen 1</span>
+          </div>
+          <div class="gallery_item">
+           <img src="src/consola_git.png" alt="">
+           <span>imagen 2</span>
+         </div>
+           </div><br>
+
+           <p>Son totalmente iguales, solo cambian algunos colores, funcionan igual y puedes usar los mismo comandos en ambas consolas, recomendacion usar git bash, es mas amigable al ojo</p>
+           <p>Ahora puedes probar escribiendo el siguiente comando que sirve para ver la Configuracion del entorno git</p>
+           <code class="code"><button class="code-copy"><i class="fas fa-copy fa-fw"></i></button>
+            <pre>git config</pre>
+        </code><br>
+
+           <p>se mostrara una lista de comandos que mas adelante se explicara con mayor detalles</p>
+           <img src="src/confi_comandos.png" alt="" width="800px"><br>
+
+           <span id="git-id" class="divider"></span>
+
+           <h1>Tu identidad en git</h1>
+
+           <p>como en toda red social, sitio web o plataforma tienes la posibilidad de registrarte con algunos datos personales y de contacto, como puede ser correo, contraseña o nombre de usurio, en git no es la exepcion, git pide configurar unos datos personales como son, usuario y correo electrónico o e-mail.
+             estos datos son importantes ya que a la hora de estar reaizando un proyecto o estar dentro de uno, estos datos sirve para conocer que miembro del equipo iso algun cambio o "commit".
+           </p>
+           
+           <p>con el comando <span class="marcado">git config --list </span>podras ver el estado de tu perfil en git, de seguro estara sin nombre y correo porque no lo hemos configurado</p>
+           <img src="src/config_list.png" alt="" width="800px"><br>
+
+           <p>Vamos a configurar nuestros datos en git, para eso utilizaremos dos simples comandos, uno para el nombre de usuario y otro para nuestro e-mail o correo</p><br>
+           <code class="code"><button class="code-copy"><i class="fas fa-copy fa-fw"></i></button>
+            <pre>git config --global user.name "juan david"
+git config --global user.email johndoe@example.com</pre>
+        </code><br>
+        <p>en en primer codigo, lo que esta denro de las comillas sera el nombre que elijamos como nuestro usuario, y luego el segundo comando es para introduccir nuestro e-mail</p>
+
+        </div>
+           <!-- <h1>Linea de Comandos</h1><br>
           <p>Existen muchas formas de usar Git. Por un lado tenemos las herramientas originales de
             línea de comandos, y por otro lado tenemos una gran variedad de interfaces de usuario
             con distintas capacidades.</p> -->
