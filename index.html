@@ -447,7 +447,7 @@ git config --global user.email johndoe@example.com</pre>
         <img src="src/git_help.png" alt="" width="800px">
 
         
-        <span id="help" class="divider"></span>
+        <span id="git-init" class="divider"></span>
 
         <h1>Iniciando un proyecto con git</h1>
         <p>ya tenemos todo listo para poder trabar con el sistema de control de versiones, ahora solo toca crear un proyecto e importarlo en git, esto se hace de manera muy simple por medio de la consola con un comando muy simple.</p>
@@ -458,6 +458,10 @@ git config --global user.email johndoe@example.com</pre>
           hospedadas en Internet o en cualquier otra red. Puedes tener varios de ellos, y en cada
           uno tendrás generalmente permisos de solo lectura o de lectura y escritura.</p>
         <p>Los repositorios locales son versiones de tu proyecto que estan hospedados en tu ordenador o computadora personal, es decir se gurdan en nuestra pc y podemos tener accesos a el en cualquier momento y sin conexion a internet</p>
+
+        <span id="git-init" class="divider"></span>
+        <h1>Repositorios Locales</h1>
+
         <p>para arrancar con git primero creamo un directorio o carpeta padre que sera el que contega el proyecto, creamos una carpeta en el escritorio o en cualquier lugar, eso ya es a gusto de cada quien</p><br>
         <img src="src/new_proyect.png" alt="" width="400px"><br>
         <p>el nombre puee ser cualquiera, ahora que ta tenemos lista la carpeta, vamos a proceder a crear los archivos del proyecto, para eso voy a recrear un ejemplo creando dos archivos que serviran para crear una pagina web, utilizando mi editor de codigo preferido que sera visual estudio code</p>
@@ -487,9 +491,31 @@ git config --global user.email johndoe@example.com</pre>
           <pre>git status</pre>
         </code><br>
         <img src="src/git_status.png" alt="" width="700px"><br><br>
-        <p>se mostraran los dos archivos que hemos creado en color rojo, ¿que significa estp?</p>
-        <p></p>
-
+        <p>se mostraran los dos archivos que hemos creado en color rojo, ¿que significa esto?</p>
+        <p>Los archivos en rojo significan que git no esta haciendo un seguimiento y que por lo tanto cualquier cambio que se haga en dichos archivos no se guardara en git, por lo tanto debemos utilizar otro comando basico para que git les haga seguimiento.</p>
+        <code class="code"><button class="code-copy"><i class="fas fa-copy fa-fw"></i></button>
+          <pre>git add .</pre>
+        </code><br>
+        <p>con ese comando se le esta diciendo a git que haga un seguimiento de todos los archivos, si quisieramos seguir a un solo archivo utilizaremos el mismo comando pero esta ves en ves del punto espesificamos que archivo seguir, ejemplo.</p>
+        <code class="code"><button class="code-copy"><i class="fas fa-copy fa-fw"></i></button>
+          <pre>git add index.html</pre>
+        </code><br>
+        <p>Lo mas comun es usar el primer comando, para asi no tener que estar espesificando todo el tiempo que archivo seguir.
+          despues de haber tecleado el comando git ya estara siguiendo todos los archivos del proyecto, puedes comprobarlo escribiendo de nuevo el <span class="marcado">git status</span>
+        </p>
+        <img src="src/git_status2.png" alt="" width="700px"><br><br>
+        <p>Si nos damos cuenta los archivos estan en verde por lo que el seguimiento de git esta activado, ahora ya podemos empezar a desarrollar nuestro proyecto.</p>
+        <p>Simpre que agregemos un nuevo archivo  utilizaremos el <span class="marcado">git add .</span> para controlar mantener el control de todos los archivos que vamos a seguir con git.</p>
+        <p>Pero con ese comando solo estamos haciendole un seguimiento a los archivos, mas no gurdando los cambios que hagamos, es por eso que aqui entra otro comando basico que te permitira guardar todos los cambios realizados y colocarles un comentario para tener un registro ordenado de cambios.
+          El famoso commit en git es el encargado de registrar los cambios de un proyecto, por eso cuando se modifique alguna cosa en los archivos es necesario hacer un commit para que los cambios de guarden en el repositorio.
+        </p>
+        <code class="code"><button class="code-copy"><i class="fas fa-copy fa-fw"></i></button>
+          <pre>git commit -m "comentarios del commit"</pre>
+        </code><br>
+        <p>dentro de las comillas iran comentarios personalizados que queramos agregar para ir registrando como si fuera un itinerario.</p>
+        
+        <span id="git-init" class="divider"></span>
+        <h1>Repositorios Locales</h1>
 
         
 
