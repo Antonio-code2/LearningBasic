@@ -250,7 +250,7 @@ p{
     display: flex;
 }
 .article_img{
-    width: 500px;
+    width: 100em;
     
 }
 .article_img img{

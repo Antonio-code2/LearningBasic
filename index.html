@@ -326,7 +326,8 @@
 
       <div class="article">
         <div class="article_img">
-          <img src="src/github.png" alt="">
+          <img src="src/logo_git.png" alt="">
+          <img src="src/logo_github.jpeg" alt="">
         </div>
         <div class="article_body">
           <h1>Git / github</h1>
@@ -376,24 +377,24 @@
 
           <p>El proceso de instalacion de git es muy sencillo, en esta parte aprenderemos a instalar git en nuestra computadora</p>
 
-            <p>Para eso tenemos que visitar la pagina oficial en donde encontraremos el link de descarga y con un solo click empezara instalarse en tu ordenador</p><a href="https://git-scm.com/downloads" target="_blank" class="link-primary" style="font-size: 20px;">https://git-scm.com/downloads</a><br>
+          <p>Para eso tenemos que visitar la pagina oficial en donde encontraremos el link de descarga y con un solo click empezara instalarse en tu ordenador</p><a href="https://git-scm.com/downloads" target="_blank" class="link-primary" style="font-size: 20px;">https://git-scm.com/downloads</a><br>
 
-            <p>no hay necedidad de explicar el proceso de descarga porque al estar leyendo  este repositorio de conceptos me da entender que sabes lo minimo de tecnologia</p><br>
+          <p>no hay necedidad de explicar el proceso de descarga porque al estar leyendo  este repositorio de conceptos me da entender que sabes lo minimo de tecnologia</p><br>
 
-            <img src="src/dowload_git.png" alt="" width="800px">
+          <img src="src/dowload_git.png" alt="" width="800px">
 
-           <span id="git-config" class="divider"></span>
+          <span id="git-config" class="divider"></span>
 
-           <h1>Configuracion de git <i class="fas fa-cog"></i></h1><br>
+          <h1>Configuracion de git <i class="fas fa-cog"></i></h1><br>
 
-           <p>Ahora toca configurar git para poder tener un entorno de trabajo mas estable y actualizado, solo se hace una ves asi que no te preocupes si crees que tienes que repetir todo el proceso siempre que inices git.</p>
+          <p>Ahora toca configurar git para poder tener un entorno de trabajo mas estable y actualizado, solo se hace una ves asi que no te preocupes si crees que tienes que repetir todo el proceso siempre que inices git.</p>
            <p>todo git es configurado y manejado con comandos que son escritos en la consola de windows o con la propia consola que trae git cuando se instala. <strong>(Git bash)</strong> </p>
            <p>puedes abrir la consola de windows  (imagen 1)</p>
 
-           <p>O Git bash (imagen 2)</p><br>
+          <p>O Git bash (imagen 2)</p><br>
 
-           <div class="article_gallery">
-           <div class="gallery_item">
+          <div class="article_gallery">
+          <div class="gallery_item">
             <img src="src/consola_winows.png" alt="">
             <span>Imagen 1</span>
           </div>
@@ -401,31 +402,31 @@
            <img src="src/consola_git.png" alt="">
            <span>imagen 2</span>
          </div>
-           </div><br>
+          </div><br>
 
-           <p>Son totalmente iguales, solo cambian algunos colores, funcionan igual y puedes usar los mismo comandos en ambas consolas, recomendacion usar git bash, es mas amigable al ojo</p>
-           <p>Ahora puedes probar escribiendo el siguiente comando que sirve para ver la Configuracion del entorno git</p>
-           <code class="code"><button class="code-copy"><i class="fas fa-copy fa-fw"></i></button>
+          <p>Son totalmente iguales, solo cambian algunos colores, funcionan igual y puedes usar los mismo comandos en ambas consolas, recomendacion usar git bash, es mas amigable al ojo</p>
+          <p>Ahora puedes probar escribiendo el siguiente comando que sirve para ver la Configuracion del entorno git</p>
+          <code class="code"><button class="code-copy"><i class="fas fa-copy fa-fw"></i></button>
             <pre>git config</pre>
-        </code><br>
+          </code><br>
 
-           <p>se mostrara una lista de comandos que mas adelante se explicara con mayor detalles</p>
-           <img src="src/confi_comandos.png" alt="" width="800px"><br>
+          <p>se mostrara una lista de comandos que mas adelante se explicara con mayor detalles</p>
+          <img src="src/confi_comandos.png" alt="" width="800px"><br>
 
-           <span id="git-id" class="divider"></span>
+          <span id="git-id" class="divider"></span>
 
-           <h1>Tu identidad en git <i class="fas fa-user-cog"></i></h1>
+          <h1>Tu identidad en git <i class="fas fa-user-cog"></i></h1>
 
-           <p>como en toda red social, sitio web o plataforma tienes la posibilidad de registrarte con algunos datos personales y de contacto, como puede ser correo, contraseña o nombre de usurio, en git no es la exepcion, git pide configurar unos datos personales como son, usuario y correo electrónico o e-mail.
-             estos datos son importantes ya que a la hora de estar reaizando un proyecto o estar dentro de uno, estos datos sirve para conocer que miembro del equipo iso algun cambio o "commit".
-           </p>
+          <p>como en toda red social, sitio web o plataforma tienes la posibilidad de registrarte con algunos datos personales y de contacto, como puede ser correo, contraseña o nombre de usurio, en git no es la exepcion, git pide configurar unos datos personales como son, usuario y correo electrónico o e-mail.
+          estos datos son importantes ya que a la hora de estar reaizando un proyecto o estar dentro de uno, estos datos sirve para conocer que miembro del equipo iso algun cambio o "commit".
+          </p>
            
-           <p>con el comando <span class="marcado">git config --list </span>podras ver el estado de tu perfil en git, de seguro estara sin nombre y correo porque no lo hemos configurado</p>
-           <img src="src/config_list.png" alt="" width="800px"><br>
+          <p>con el comando <span class="marcado">git config --list </span>podras ver el estado de tu perfil en git, de seguro estara sin nombre y correo porque no lo hemos configurado</p>
+          <img src="src/config_list.png" alt="" width="800px"><br>
 
-           <p>Vamos a configurar nuestros datos en git, para eso utilizaremos dos simples comandos, uno para el nombre de usuario y otro para nuestro e-mail o correo</p><br>
-           <code class="code"><button class="code-copy"><i class="fas fa-copy fa-fw"></i></button>
-            <pre>git config --global user.name "juan david"
+          <p>Vamos a configurar nuestros datos en git, para eso utilizaremos dos simples comandos, uno para el nombre de usuario y otro para nuestro e-mail o correo</p><br>
+          <code class="code"><button class="code-copy"><i class="fas fa-copy fa-fw"></i></button>
+          <pre>git config --global user.name "juan david"
 git config --global user.email johndoe@example.com</pre>
         </code><br>
         <p>en en primer codigo, lo que esta denro de las comillas sera el nombre que elijamos como nuestro usuario, y luego el segundo comando es para introduccir nuestro e-mail</p>
@@ -440,10 +441,57 @@ git config --global user.email johndoe@example.com</pre>
         <p>git tambien tiene sus ayudas.</p>
         <p>en la consola puedes colocar los siguientes comandos</p><br>
         <code class="code"><button class="code-copy"><i class="fas fa-copy fa-fw"></i></button>
-          <pre>git help</pre>
-      </code><br>
-      <p>te mostrara una lista de muchos comandos los cuales traen una descripcion el cual detallan en que consiste cada comando, esta en ingles, pero mas adelante se mostrara una lista de todos los comandos de git y su descripcion, asi tambien como su uso</p><br>
-      <img src="src/git_help.png" alt="" width="800px">
+        <pre>git help</pre>
+        </code><br>
+        <p>te mostrara una lista de muchos comandos los cuales traen una descripcion el cual detallan en que consiste cada comando, esta en ingles, pero mas adelante se mostrara una lista de todos los comandos de git y su descripcion, asi tambien como su uso</p><br>
+        <img src="src/git_help.png" alt="" width="800px">
+
+        
+        <span id="help" class="divider"></span>
+
+        <h1>Iniciando un proyecto con git</h1>
+        <p>ya tenemos todo listo para poder trabar con el sistema de control de versiones, ahora solo toca crear un proyecto e importarlo en git, esto se hace de manera muy simple por medio de la consola con un comando muy simple.</p>
+        <p>Como ya sabemos los proyectos que se crean o se suben a git se les llama repositorios, los cuales por su nombre lo indica iran reposando todo los archivos, cambios e informacion de un proyecto.
+          existen 2 tipos de repositorios, estan los remotos y los locales.
+        </p>
+        <p>Los repositorios remotos son versiones de tu proyecto que están
+          hospedadas en Internet o en cualquier otra red. Puedes tener varios de ellos, y en cada
+          uno tendrás generalmente permisos de solo lectura o de lectura y escritura.</p>
+        <p>Los repositorios locales son versiones de tu proyecto que estan hospedados en tu ordenador o computadora personal, es decir se gurdan en nuestra pc y podemos tener accesos a el en cualquier momento y sin conexion a internet</p>
+        <p>para arrancar con git primero creamo un directorio o carpeta padre que sera el que contega el proyecto, creamos una carpeta en el escritorio o en cualquier lugar, eso ya es a gusto de cada quien</p><br>
+        <img src="src/new_proyect.png" alt="" width="400px"><br>
+        <p>el nombre puee ser cualquiera, ahora que ta tenemos lista la carpeta, vamos a proceder a crear los archivos del proyecto, para eso voy a recrear un ejemplo creando dos archivos que serviran para crear una pagina web, utilizando mi editor de codigo preferido que sera visual estudio code</p>
+        <img src="src/import_proyect_vscode.png" alt="" width="800px"><br>
+        <p>importamos nuestra carpeta a vs code y creamos dos archivos</p><br>
+        <img src="src/new_archivo.png" alt="" width="800px">
+        <hr>
+        <img src="src/two_archivos_vs.png" alt="" width="800px"><br>
+
+        <p>Ya con los dos archivos de ejemplo creados procedemos a inicialzar un repositorio local, recuerden que un repositorio loca es aquel que se guarda solamente en su equipo, si queremos subir este repo a internet yas era en el siguieten ejemplo que aremos mas adelante. </p>
+        <p>Para inicializar o comenar el repositorio debemos ubicarnos dentro de la carpeta de nuestro proyecto, en este caso lo aremos por consola de comandos pero existen formas mucho mas sencillas de iniciar un repo sin tener que estar metidos tanto con comandos que se pueen olvidar, como es el caso de vs code que te permite trabajar con git de una manera mucho mas facil, mas adelante mostrare como se hace.</p>
+        <p>Abrimos nuestra consola click izquiero y en git bash here</p>
+        <img src="src/git_consola.png" alt="" width="700px"><br><br>
+        <p>usaremos la consola git bash que es la apropiada utilizar cuando se trabaja con git</p><br><br>
+        <img src="src/proyecto_consola.png" alt="" width="700px"><br><br>
+        <p>se abrira la consola con el nombre de la carpeta en donde ira el proyecyo.
+          ahora utilizaremos un comando muy simple
+        </p>
+        <code class="code"><button class="code-copy"><i class="fas fa-copy fa-fw"></i></button>
+          <pre>git init</pre>
+        </code><br>
+        <img src="src/git_init.png" alt="" width="700px"><br><br>
+        <p>Se inicializara el proyecto en local y ya hemos iniciado a trabajar con git</p>
+        <p>Ahora utilizaremos otro comando para ver en que estado esta nuestro proyecto</p>
+
+        <code class="code"><button class="code-copy"><i class="fas fa-copy fa-fw"></i></button>
+          <pre>git status</pre>
+        </code><br>
+        <img src="src/git_status.png" alt="" width="700px"><br><br>
+        <p>se mostraran los dos archivos que hemos creado en color rojo, ¿que significa estp?</p>
+        <p></p>
+
+
+        
 
         <!-- <span id="editor" class="divider">https://git-scm.com/book/es/v2</span>
 
