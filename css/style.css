@@ -262,7 +262,7 @@ p{
 }
 
 .info{
-    display: inline-block;
+    display: flex;
     border-left: 5px solid #eafa0a;
     background: rgb(231, 215, 215);
     margin: 10px;
@@ -275,10 +275,31 @@ p{
   font-size: 15px;
   
 }
+.info .fa-info-circle{
+    font-size: 30px;
+}
 .marcado{
     background: rgb(250, 242, 169);
     color: rgb(14, 13, 13);
 }
+
+
+/* lista de logos o iconos */
+
+.list_icon{
+    display: flex;
+    justify-content: space-evenly;
+}
+.icon_item{
+    margin: 10px 0;
+   
+
+}
+.icon_item .fa-git-square,  .fa-github, .fa-html5{
+    font-size: 100px;
+    margin: 0 20px;
+}
+
 
 /* galleria de imagenes */
 .article_gallery{
